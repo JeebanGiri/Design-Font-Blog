@@ -2,13 +2,20 @@
 .navbar {
   display: flex;
   justify-content: center;
+  gap: 700px;
   background-color: #13293e;
   height: 50px;
 }
+
 .navItems {
   display: flex;
   gap: 20px;
-  padding-left: 500px;
+}
+.title li {
+  display: flex;
+  margin-top: 5px;
+  color: white;
+  font-size: 22px;
 }
 .navItems li {
   list-style: none;

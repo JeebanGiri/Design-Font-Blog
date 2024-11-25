@@ -4,6 +4,11 @@ const Header = () => {
   return (
     <>
       <nav className={style.navbar}>
+        <span className={style.title}>
+          <li>
+            <h3>Learn To Dev.</h3>
+          </li>
+        </span>
         <span className={style.navItem}>
           <ul className={style.navItems}>
             <li>
