@@ -1,0 +1,23 @@
+.homepage {
+  padding: 20px;
+}
+.blog_section {
+  display: flex;
+  gap: 20px;
+}
+.author {
+  display: flex;
+  gap: 20px;
+}
+.author_img {
+  width: 100px;
+  height: 100px;
+  background: #d7dbdc;
+  border-radius: 12px;
+  overflow: hidden;
+}
+.author_img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

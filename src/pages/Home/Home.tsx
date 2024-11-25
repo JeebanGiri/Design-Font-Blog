@@ -1,22 +1,26 @@
+import style from "./Home.module.css";
+import Homeimg from "../../assets/images/home.jpg";
+import AuthorImg from "../../assets/images/author.png";
+
 const Home = () => {
   return (
     <>
-      <div className="homepage">
-        <section>
+      <div className={style.homepage}>
+        <section className={style.blog_section}>
           <div className="articleSide">
             <span className="content">
               <ul>
-                <li>10 min reac</li>
+                <li>10 min read</li>
               </ul>
               <h3>Best Free Fonts for Web Design in 2024</h3>
             </span>
-            <span className="author">
-              <span className="author-img">
+            <span className={style.author}>
+              <span className={style.author_img}>
                 <figure>
-                  <img src="" alt="" />
+                  <img src={AuthorImg} alt="Author" />
                 </figure>
               </span>
-              <span className="author-desc">
+              <span className={style.author_desc}>
                 <p>Written by</p>
                 <strong>Jeeban Giri</strong>
                 <p>Developer</p>
@@ -25,7 +29,7 @@ const Home = () => {
           </div>
           <div className="imageSide">
             <figure>
-              <img src="" alt="" />
+              <img src={Homeimg} alt="Home" />
             </figure>
           </div>
         </section>

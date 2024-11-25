@@ -6,7 +6,9 @@ const Header = () => {
       <nav className={style.navbar}>
         <span className={style.title}>
           <li>
-            <h3>Learn To Dev.</h3>
+            <NavLink to="/">
+              <h3>Learn To Dev.</h3>
+            </NavLink>
           </li>
         </span>
         <span className={style.navItem}>
