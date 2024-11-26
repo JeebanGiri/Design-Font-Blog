@@ -1,5 +1,5 @@
 import style from "./Home.module.css";
-import Homeimg from "../../assets/images/home.jpg";
+import Homeimg from "../../assets/images/home.webp";
 import AuthorImg from "../../assets/images/author.png";
 
 const Home = () => {
@@ -7,8 +7,8 @@ const Home = () => {
     <>
       <div className={style.homepage}>
         <section className={style.blog_section}>
-          <div className="articleSide">
-            <span className="content">
+          <div className={style.articleSide}>
+            <span className={style.content}>
               <ul>
                 <li>10 min read</li>
               </ul>
@@ -27,7 +27,7 @@ const Home = () => {
               </span>
             </span>
           </div>
-          <div className="imageSide">
+          <div className={style.imageSide}>
             <figure>
               <img src={Homeimg} alt="Home" />
             </figure>
